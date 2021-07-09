@@ -2,6 +2,7 @@ class PostsController < ApplicationController
   before_action :set_post, only: %i[ show edit update destroy ]
 
   #this is my test
+  #this is on add-ons branch
   #GET /posts
   #GET /posts.json
   def more
