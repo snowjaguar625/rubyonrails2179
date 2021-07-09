@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
   before_action :set_post, only: %i[ show edit update destroy ]
 
+  #this is my test
   #GET /posts
   #GET /posts.json
   def more
